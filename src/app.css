@@ -1,0 +1,22 @@
+html {
+  overflow: hidden;
+}
+
+html, body, #root, .container {
+  height: 100%;
+  margin: 0;
+} 
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  flex: 0;
+}
+
+.scroll-top-area, .scroll-bottom-area {
+  background: saddlebrown;
+  opacity: 0.3
+}

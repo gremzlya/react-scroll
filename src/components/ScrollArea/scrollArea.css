@@ -1,0 +1,19 @@
+
+.scroll-area-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.scroll-top-area, .scroll-bottom-area {
+  flex: 0;
+  height: 40px;
+  z-index: 1;
+}
+
+.scroll-content-area {
+  overflow-y: scroll;
+  position: relative;
+  margin-bottom: -40px;
+  margin-top: -40px;
+}
